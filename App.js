@@ -1,6 +1,6 @@
 import React from "react";
 import { StyleSheet } from "react-native";
-import { AppLoading } from "expo";
+import AppLoading from 'expo-app-loading';
 import * as Font from "expo-font";
 
 import Navigation from "./navigation";
