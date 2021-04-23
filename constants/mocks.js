@@ -20,20 +20,20 @@ const trips = [
   const drivingData = [
     {
       id: 1,
-      status: 'bad',
-      action: 'breaking',
+      status: 'Preparing..',
+      action: 'DJI',
       icon: require('../assets/images/Icon/BreakingBad.png'),
     },
     {
       id: 2,
-      status: 'fair',
-      action: 'speeding',
+      status: 'On The Way!',
+      action: 'DJI',
       icon: require('../assets/images/Icon/SpeedingFair.png'),
     },
     {
       id: 3,
-      status: 'good',
-      action: 'breaking',
+      status: 'Delivered!',
+      action: 'DJI',
       icon: require('../assets/images/Icon/BreakingGood.png'),
     },
   ];

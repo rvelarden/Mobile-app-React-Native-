@@ -141,9 +141,9 @@ export default class Trip extends Component {
           <Text
             title
             transform="capitalize"
-            accent={drive.status === "bad"}
-            tertiary={drive.status === "fair"}
-            primary={drive.status === "good"}
+            accent={drive.status === "Preparing.."}
+            tertiary={drive.status === "On The Way!"}
+            gray5={drive.status === "Delivered!"}
             height={22}
           >
             {drive.status}

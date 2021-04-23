@@ -131,7 +131,7 @@ export default class Welcome extends Component {
             Wohoo!
           </Text>
           <Text size={theme.sizes.base} spacing={0.4} medium white>
-            Safe Driver Trophy!
+            My Favorite Drone is 
           </Text>
         </Block>
       </LinearGradient>
@@ -158,7 +158,7 @@ export default class Welcome extends Component {
             size={14}
             style={{ marginRight: 8 }}
           >
-            <Badge color={theme.colors.accent} size={8} />
+            <Badge color={theme.colors.gray5} size={8} />
           </Badge>
           <Text spacing={0.5} color="gray">
             {trip.from}
