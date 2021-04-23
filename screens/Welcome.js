@@ -22,7 +22,7 @@ const { width } = Dimensions.get("window");
 export default class Welcome extends Component {
   static navigationOptions = {
     headerTitle: <Text style={theme.fonts.header}>Welcome</Text>,
-    headerRight: (
+    headerLeft: (
       <TouchableOpacity>
         <Block flex={false}>
           <Image
@@ -113,7 +113,7 @@ export default class Welcome extends Component {
       <LinearGradient
         end={{ x: 1, y: 0 }}
         style={[blockStyles.row, cardStyles.card, styles.awards]}
-        colors={["#FF988A", theme.colors.accent]}
+        colors={["#000000", theme.colors.accent]}
       >
         <Block middle flex={0.4}>
           <Badge color={rgba(theme.colors.white, "0.2")} size={74}>

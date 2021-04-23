@@ -25,7 +25,7 @@ export default class Trip extends Component {
     return {
       headerTitle: <Text style={theme.fonts.header}>Current Trip</Text>,
       headerLeft: null,
-      headerRight: (
+      headerLeft: (
         <TouchableOpacity
           onPress={() => navigation.navigate("Trip", { map: !showMap })}
         >

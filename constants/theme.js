@@ -1,6 +1,6 @@
 const colors = {
   accent: "#FF4957",
-  primary: "#27A9FF",
+  primary: "#dc143c",
   secondary: "#4DA1FF",
   tertiary: "#FFE358",
   black: "#2F2F2F",
@@ -9,6 +9,7 @@ const colors = {
   gray2: "#D8D8D8",
   gray3: "#F0F0F0",
   gray4: "#F7F8FA",
+ 
 };
 
 const sizes = {
