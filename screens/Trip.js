@@ -16,6 +16,7 @@ import { Block, Badge, Card, Text } from "../components";
 import { theme, mocks, mapStyles } from "../constants";
 import { styles as blockStyles } from "../components/Block";
 
+
 const { width } = Dimensions.get("window");
 
 export default class Trip extends Component {
@@ -103,7 +104,7 @@ export default class Trip extends Component {
               <TouchableOpacity activeOpacity={0.8}>
                 <Badge color={rgba(theme.colors.primary, "0.2")} size={57}>
                   <Icon.MaterialCommunityIcons
-                    name="car-sports"
+                    name="helicopter"
                     size={57 / 2.5}
                     color="black"
                   />

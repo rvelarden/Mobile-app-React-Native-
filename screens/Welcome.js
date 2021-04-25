@@ -58,9 +58,9 @@ export default class Welcome extends Component {
           <Block>
             <Block center>
               <Text h1 primary spacing={1.7}>
-                $11.71
+                $110.71
               </Text>
-              <Text spacing={0.7}>Total Monthly Rewards</Text>
+              <Text spacing={0.7}>Total Monthly Drone Usage</Text>
             </Block>
 
             <Block color="gray3" style={styles.hLine} />
@@ -73,13 +73,13 @@ export default class Welcome extends Component {
                   primary
                   style={{ marginBottom: 6 }}
                 >
-                  8.1
+                  100.1 mi
                 </Text>
                 <Text body spacing={0.7}>
                   Driving
                 </Text>
                 <Text body spacing={0.7}>
-                  Score
+                  Distance
                 </Text>
               </Block>
 
@@ -92,13 +92,13 @@ export default class Welcome extends Component {
                   primary
                   style={{ marginBottom: 6 }}
                 >
-                  37
+                  90
                 </Text>
                 <Text body spacing={0.7}>
-                  Driver's
+                  Drone's
                 </Text>
                 <Text body spacing={0.7}>
-                  Level
+                  Performance Level
                 </Text>
               </Block>
             </Block>
@@ -131,7 +131,7 @@ export default class Welcome extends Component {
             Wohoo!
           </Text>
           <Text size={theme.sizes.base} spacing={0.4} medium white>
-            My Favorite Drone is 
+            My Favorite Drone
           </Text>
         </Block>
       </LinearGradient>
@@ -210,11 +210,16 @@ export default class Welcome extends Component {
             onPress={() => navigation.navigate("Trip")}
           >
             <Badge color={theme.colors.primary} size={62}>
-              <Icon.FontAwesome
-                name="automobile"
+              {/* <Icon.FontAwesome
+                name="helicopter"
                 size={62 / 2.5}
                 color="white"
-              />
+              /> */}
+               <Icon.MaterialCommunityIcons
+                    name="helicopter"
+                    size={57 / 2.5}
+                    color="black"
+                  />
             </Badge>
           </TouchableOpacity>
         </Badge>
